@@ -1,0 +1,23 @@
+{
+  "name": "progress-bar-javascript",
+  "version": "1.0.0",
+  "description": "A simple progress bar made with plain JavaScript.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "lint": "eslint --fix \"{,!(node_modules)/**/}*.js\"",
+    "format": "prettier --write \"{,!(node_modules)/**/}*.{js,css,html}\""
+  },
+  "keywords": [],
+  "author": "Tina Bisgaard",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
